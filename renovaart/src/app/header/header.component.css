@@ -1,0 +1,60 @@
+.art-header {
+    min-height: 4.7rem;
+    background-color: #C8B5A2;
+    padding: 1rem;
+}
+
+.logo {
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    text-align: start;
+    overflow: hidden;
+  }
+  
+  .renova {
+    color: #4A4A4A;
+  }
+  
+  .art {
+    color: #8A735C;
+  }
+  
+  .logo-text {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .logo:hover .renova {
+    color: #8A735C;
+    transition: color 0.3s ease;
+  }
+  
+  .logo:hover .art {
+    color: #4A4A4A;
+    transition: color 0.3s ease;
+  }
+  
+  @media (max-width: 900px) {
+    header {
+      padding: 15px 20px;
+      height: 70px;
+    }
+  
+    .logo {
+      font-size: 2em;
+      letter-spacing: 2px;
+      width: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo {
+      font-size: 1.6em;
+      letter-spacing: 1px;
+      width: auto;
+    }
+  }
